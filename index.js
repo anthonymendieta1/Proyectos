@@ -13,7 +13,7 @@ app.use(body_paser.json());
 app.use(body_paser.urlencoded({extended:true}));
 app.use('/' , rutas);
 
-
-app.listen(3100,function(){
+var port = process.env.PORT || 3000;
+app.listen(port,function(){
     console.log("El servidor se inicio correctamente")
 });
