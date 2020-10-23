@@ -1,13 +1,13 @@
 {
   "name": "app1",
   "version": "1.0.0",
-  "description": "Primer proyecto de 4to de software",
+  "description": "Primer proyecto de Programacion web",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 
-  "author": "Jonathan Bury",
+  "author": "Anthony Mendieta",
   "license": "ISC",
   "dependencies": 
   {
